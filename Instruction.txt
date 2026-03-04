@@ -1,0 +1,13 @@
+
+
+1. Create virtual env:
+
+python -m venv ./venv
+source ./ven/bin/activate
+
+2. Install all required dependencies
+
+pip install -r requirements.txt
+
+3. Load Data Set
+
