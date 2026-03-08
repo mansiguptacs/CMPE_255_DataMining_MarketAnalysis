@@ -29,11 +29,13 @@ Brief Project Steps:
 * Profiling and interpreting clusters and other observations to provide business recommendations.
 
 Related References:
-Han, J., Kamber, M., & Pei, J. Data Mining: Concepts and Techniques.
-Wedel, M., & Kamakura, W. Market Segmentation.
-Agrawal, R., & Srikant, R. (1994). “Fast Algorithms for Mining Association Rules.” Proceedings of the 20th International Conference on Very Large Data Bases (VLDB).
-Jain, A. K. (2010). “Data Clustering: 50 Years Beyond K-Means.” Pattern Recognition Letters, 31(8), 651-666.
-Rousseeuw, P. J. (1987). “Silhouettes: A Graphical Aid to the Interpretation and Validation of Cluster Analysis.” Journal of Computational and Applied Mathematics, 20, 53-65.
+* Han, J., Kamber, M., & Pei, J. Data Mining: Concepts and Techniques.
+
+* Wedel, M., & Kamakura, W. Market Segmentation.
+
+* Agrawal, R., & Srikant, R. (1994). “Fast Algorithms for Mining Association Rules.” Proceedings of the 20th International Conference on Very Large Data Bases (VLDB).
+* Jain, A. K. (2010). “Data Clustering: 50 Years Beyond K-Means.” Pattern Recognition Letters, 31(8), 651-666.
+* Rousseeuw, P. J. (1987). “Silhouettes: A Graphical Aid to the Interpretation and Validation of Cluster Analysis.” Journal of Computational and Applied Mathematics, 20, 53-65.
 
 
 Tentative Roles of Team Members:
