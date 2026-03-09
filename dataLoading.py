@@ -42,10 +42,11 @@ def load_all_data():
     products = pd.read_csv(os.path.join(DATA_PATH, "products.csv"))
     order_products = pd.read_csv(os.path.join(DATA_PATH, "order_products__prior.csv"))
     departments = pd.read_csv(os.path.join(DATA_PATH, "departments.csv"))
+    aisles = pd.read_csv(os.path.join(DATA_PATH, "aisles.csv"))
     
-    print(f"Loaded: {len(orders)} orders, {len(products)} products, {len(order_products)} order items.")
-    return orders, products, order_products, departments
+    print(f"Loaded: {len(orders)} orders, {len(products)} products, {len(order_products)} order items. Departments: {len(departments)}, Aisles: {len(aisles)}")
+    return orders, products, order_products, departments, aisles
 
 if __name__ == "__main__":
-    orders, products, order_products, departments = load_all_data()
+    orders, products, order_products, departments, aisles = load_all_data()
     print("Data Loading script executed successfully.")
