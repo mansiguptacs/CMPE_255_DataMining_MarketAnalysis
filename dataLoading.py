@@ -39,10 +39,21 @@ def load_all_data():
     ensure_data()
     print("Loading raw data from CSV files...")
     orders = pd.read_csv(os.path.join(DATA_PATH, "orders.csv"))
+
+    print("Loaded 'orders.csv':")
+    print(orders.head())
     products = pd.read_csv(os.path.join(DATA_PATH, "products.csv"))
+    print("Loaded 'products.csv':")
+    print(products.head())
     order_products = pd.read_csv(os.path.join(DATA_PATH, "order_products__prior.csv"))
+    print("Loaded 'order_products__prior.csv':")
+    print(order_products.head())
     departments = pd.read_csv(os.path.join(DATA_PATH, "departments.csv"))
+    print("Loaded 'departments.csv':")
+    print(departments.head())
     aisles = pd.read_csv(os.path.join(DATA_PATH, "aisles.csv"))
+    print("Loaded 'aisles.csv':")
+    print(aisles.head())
     
     print(f"Loaded: {len(orders)} orders, {len(products)} products, {len(order_products)} order items. Departments: {len(departments)}, Aisles: {len(aisles)}")
     return orders, products, order_products, departments, aisles
