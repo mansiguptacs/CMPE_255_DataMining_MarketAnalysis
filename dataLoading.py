@@ -48,6 +48,9 @@ def load_all_data():
     order_products = pd.read_csv(os.path.join(DATA_PATH, "order_products__prior.csv"))
     print("Loaded 'order_products__prior.csv':")
     print(order_products.head())
+    order_train = pd.read_csv(os.path.join(DATA_PATH, "order_products__train.csv"))
+    print("Loaded 'order_products__train.csv':")
+    print(order_train.head())
     departments = pd.read_csv(os.path.join(DATA_PATH, "departments.csv"))
     print("Loaded 'departments.csv':")
     print(departments.head())
@@ -55,9 +58,9 @@ def load_all_data():
     print("Loaded 'aisles.csv':")
     print(aisles.head())
     
-    print(f"Loaded: {len(orders)} orders, {len(products)} products, {len(order_products)} order items. Departments: {len(departments)}, Aisles: {len(aisles)}")
-    return orders, products, order_products, departments, aisles
+    print(f"Loaded: {len(orders)} orders, {len(products)} products, {len(order_products)} order items. Using order_products__prior.csv {len(order_train)}for training. Departments: {len(departments)}, Aisles: {len(aisles)}")
+    return orders, products, order_products, order_train, departments, aisles
 
 if __name__ == "__main__":
-    orders, products, order_products, departments, aisles = load_all_data()
+    orders, products, order_products, order_train, departments, aisles = load_all_data()
     print("Data Loading script executed successfully.")
