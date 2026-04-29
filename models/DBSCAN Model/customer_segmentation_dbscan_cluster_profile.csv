@@ -1,0 +1,2 @@
+dbscan_cluster,total_orders,avg_days_between_orders,avg_order_hour,order_variability,avg_basket_size,reorder_rate
+0,2.558614515167925,15.452471338491984,13.589313833131314,47.30402838767341,2.251055873778507,0.4321239854004411
